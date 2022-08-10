@@ -48,7 +48,7 @@ module.exports = {
                 }).catch(console.error).then(role => {
                     console.log(role)
                 })
-                arr.push(`Create Baker role: ❌`)
+                arr.push(`Create Cake role: ❌`)
             } else arr.push(`Create Cake role: ✅`)
 
             if (!breadRole) {
